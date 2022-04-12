@@ -5,9 +5,9 @@ import (
 
 	"github.com/chrislusf/raft"
 
-	"github.com/chrislusf/seaweedfs/weed/operation"
-	"github.com/chrislusf/seaweedfs/weed/pb/master_pb"
-	"github.com/chrislusf/seaweedfs/weed/pb/volume_server_pb"
+	"github.com/bary321/seaweedfs-1/weed/operation"
+	"github.com/bary321/seaweedfs-1/weed/pb/master_pb"
+	"github.com/bary321/seaweedfs-1/weed/pb/volume_server_pb"
 )
 
 func (ms *MasterServer) CollectionList(ctx context.Context, req *master_pb.CollectionListRequest) (*master_pb.CollectionListResponse, error) {

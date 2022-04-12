@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package volume_server_pb;
-option go_package = "github.com/chrislusf/seaweedfs/weed/pb/volume_server_pb";
+option go_package = "github.com/bary321/seaweedfs-1/weed/pb/volume_server_pb";
 
 //////////////////////////////////////////////////
 

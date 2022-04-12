@@ -9,11 +9,11 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/chrislusf/seaweedfs/weed/pb"
-	"github.com/chrislusf/seaweedfs/weed/pb/filer_pb"
-	"github.com/chrislusf/seaweedfs/weed/util"
-	"github.com/chrislusf/seaweedfs/weed/wdclient"
-	"github.com/chrislusf/seaweedfs/weed/wdclient/exclusive_locks"
+	"github.com/bary321/seaweedfs-1/weed/pb"
+	"github.com/bary321/seaweedfs-1/weed/pb/filer_pb"
+	"github.com/bary321/seaweedfs-1/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/wdclient"
+	"github.com/bary321/seaweedfs-1/weed/wdclient/exclusive_locks"
 )
 
 type ShellOptions struct {

@@ -5,12 +5,12 @@ import (
 	"os"
 	"sync"
 
-	"github.com/chrislusf/seaweedfs/weed/filer"
-	"github.com/chrislusf/seaweedfs/weed/filer/leveldb"
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/pb/filer_pb"
-	"github.com/chrislusf/seaweedfs/weed/util"
-	"github.com/chrislusf/seaweedfs/weed/util/bounded_tree"
+	"github.com/bary321/seaweedfs-1/weed/filer"
+	"github.com/bary321/seaweedfs-1/weed/filer/leveldb"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/pb/filer_pb"
+	"github.com/bary321/seaweedfs-1/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/util/bounded_tree"
 )
 
 // need to have logic similar to FilerStoreWrapper

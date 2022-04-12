@@ -6,12 +6,12 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/chrislusf/seaweedfs/weed/stats"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/stats"
+	"github.com/bary321/seaweedfs-1/weed/util"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/security"
-	"github.com/chrislusf/seaweedfs/weed/storage"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/security"
+	"github.com/bary321/seaweedfs-1/weed/storage"
 )
 
 type VolumeServer struct {

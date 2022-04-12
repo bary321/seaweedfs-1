@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	_ "github.com/chrislusf/seaweedfs/weed/storage/backend/s3_backend"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	_ "github.com/bary321/seaweedfs-1/weed/storage/backend/s3_backend"
+	"github.com/bary321/seaweedfs-1/weed/util"
 
 	"github.com/golang/protobuf/jsonpb"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/pb/volume_server_pb"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/pb/volume_server_pb"
 )
 
 // MaybeLoadVolumeInfo load the file data as *volume_server_pb.VolumeInfo, the returned volumeInfo will not be nil

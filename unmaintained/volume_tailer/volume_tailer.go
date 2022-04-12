@@ -5,10 +5,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/chrislusf/seaweedfs/weed/operation"
-	"github.com/chrislusf/seaweedfs/weed/security"
-	"github.com/chrislusf/seaweedfs/weed/storage/needle"
-	util2 "github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/operation"
+	"github.com/bary321/seaweedfs-1/weed/security"
+	"github.com/bary321/seaweedfs-1/weed/storage/needle"
+	util2 "github.com/bary321/seaweedfs-1/weed/util"
 	"golang.org/x/tools/godoc/util"
 )
 

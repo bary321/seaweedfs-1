@@ -3,7 +3,7 @@ package etcd
 import (
 	"context"
 	"fmt"
-	"github.com/chrislusf/seaweedfs/weed/filer"
+	"github.com/bary321/seaweedfs-1/weed/filer"
 )
 
 func (store *EtcdStore) KvPut(ctx context.Context, key []byte, value []byte) (err error) {

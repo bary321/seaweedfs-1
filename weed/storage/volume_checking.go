@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/chrislusf/seaweedfs/weed/storage/backend"
-	"github.com/chrislusf/seaweedfs/weed/storage/idx"
-	"github.com/chrislusf/seaweedfs/weed/storage/needle"
-	. "github.com/chrislusf/seaweedfs/weed/storage/types"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/storage/backend"
+	"github.com/bary321/seaweedfs-1/weed/storage/idx"
+	"github.com/bary321/seaweedfs-1/weed/storage/needle"
+	. "github.com/bary321/seaweedfs-1/weed/storage/types"
+	"github.com/bary321/seaweedfs-1/weed/util"
 )
 
 func CheckVolumeDataIntegrity(v *Volume, indexFile *os.File) (lastAppendAtNs uint64, e error) {

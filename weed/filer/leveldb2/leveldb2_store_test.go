@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/chrislusf/seaweedfs/weed/filer"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/filer"
+	"github.com/bary321/seaweedfs-1/weed/util"
 )
 
 func TestCreateAndFind(t *testing.T) {

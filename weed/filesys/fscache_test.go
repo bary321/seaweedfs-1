@@ -3,7 +3,7 @@ package filesys
 import (
 	"testing"
 
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/util"
 )
 
 func TestPathSplit(t *testing.T) {

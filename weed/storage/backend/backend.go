@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/pb/master_pb"
-	"github.com/chrislusf/seaweedfs/weed/pb/volume_server_pb"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/pb/master_pb"
+	"github.com/bary321/seaweedfs-1/weed/pb/volume_server_pb"
 	"github.com/spf13/viper"
 )
 

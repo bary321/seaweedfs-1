@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/operation"
-	"github.com/chrislusf/seaweedfs/weed/stats"
-	"github.com/chrislusf/seaweedfs/weed/storage/needle"
-	"github.com/chrislusf/seaweedfs/weed/topology"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/operation"
+	"github.com/bary321/seaweedfs-1/weed/stats"
+	"github.com/bary321/seaweedfs-1/weed/storage/needle"
+	"github.com/bary321/seaweedfs-1/weed/topology"
 )
 
 func (vs *VolumeServer) PostHandler(w http.ResponseWriter, r *http.Request) {

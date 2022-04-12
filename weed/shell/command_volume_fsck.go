@@ -11,14 +11,14 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/chrislusf/seaweedfs/weed/filer"
-	"github.com/chrislusf/seaweedfs/weed/operation"
-	"github.com/chrislusf/seaweedfs/weed/pb/filer_pb"
-	"github.com/chrislusf/seaweedfs/weed/pb/master_pb"
-	"github.com/chrislusf/seaweedfs/weed/pb/volume_server_pb"
-	"github.com/chrislusf/seaweedfs/weed/storage/needle_map"
-	"github.com/chrislusf/seaweedfs/weed/storage/types"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/filer"
+	"github.com/bary321/seaweedfs-1/weed/operation"
+	"github.com/bary321/seaweedfs-1/weed/pb/filer_pb"
+	"github.com/bary321/seaweedfs-1/weed/pb/master_pb"
+	"github.com/bary321/seaweedfs-1/weed/pb/volume_server_pb"
+	"github.com/bary321/seaweedfs-1/weed/storage/needle_map"
+	"github.com/bary321/seaweedfs-1/weed/storage/types"
+	"github.com/bary321/seaweedfs-1/weed/util"
 )
 
 func init() {

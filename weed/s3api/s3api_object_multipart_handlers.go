@@ -2,7 +2,7 @@ package s3api
 
 import (
 	"fmt"
-	"github.com/chrislusf/seaweedfs/weed/s3api/s3err"
+	"github.com/bary321/seaweedfs-1/weed/s3api/s3err"
 	"net/http"
 	"net/url"
 	"strconv"

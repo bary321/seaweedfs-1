@@ -3,13 +3,13 @@ package command
 import (
 	"fmt"
 
-	"github.com/chrislusf/seaweedfs/weed/security"
-	"github.com/chrislusf/seaweedfs/weed/storage/needle"
-	"github.com/chrislusf/seaweedfs/weed/storage/super_block"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/security"
+	"github.com/bary321/seaweedfs-1/weed/storage/needle"
+	"github.com/bary321/seaweedfs-1/weed/storage/super_block"
+	"github.com/bary321/seaweedfs-1/weed/util"
 
-	"github.com/chrislusf/seaweedfs/weed/operation"
-	"github.com/chrislusf/seaweedfs/weed/storage"
+	"github.com/bary321/seaweedfs-1/weed/operation"
+	"github.com/bary321/seaweedfs-1/weed/storage"
 )
 
 var (

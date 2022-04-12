@@ -5,7 +5,7 @@ package command
 import (
 	"context"
 	"fmt"
-	"github.com/chrislusf/seaweedfs/weed/filesys/meta_cache"
+	"github.com/bary321/seaweedfs-1/weed/filesys/meta_cache"
 	"os"
 	"os/user"
 	"path"
@@ -17,13 +17,13 @@ import (
 	"github.com/seaweedfs/fuse"
 	"github.com/seaweedfs/fuse/fs"
 
-	"github.com/chrislusf/seaweedfs/weed/filesys"
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/pb"
-	"github.com/chrislusf/seaweedfs/weed/pb/filer_pb"
-	"github.com/chrislusf/seaweedfs/weed/security"
-	"github.com/chrislusf/seaweedfs/weed/util"
-	"github.com/chrislusf/seaweedfs/weed/util/grace"
+	"github.com/bary321/seaweedfs-1/weed/filesys"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/pb"
+	"github.com/bary321/seaweedfs-1/weed/pb/filer_pb"
+	"github.com/bary321/seaweedfs-1/weed/security"
+	"github.com/bary321/seaweedfs-1/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/util/grace"
 )
 
 func runMount(cmd *Command, args []string) bool {

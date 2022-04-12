@@ -2,7 +2,7 @@ package master_ui
 
 import (
 	"fmt"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/util"
 	"html/template"
 	"strconv"
 	"strings"
@@ -57,7 +57,7 @@ var StatusTpl = template.Must(template.New("status").Funcs(funcMap).Parse(`<!DOC
     <div class="container">
       <div class="page-header">
 	    <h1>
-          <a href="https://github.com/chrislusf/seaweedfs"><img src="/seaweedfsstatic/seaweed50x50.png"></img></a>
+          <a href="https://github.com/bary321/seaweedfs-1"><img src="/seaweedfsstatic/seaweed50x50.png"></img></a>
           SeaweedFS <small>{{ .Version }}</small>
 	    </h1>
       </div>

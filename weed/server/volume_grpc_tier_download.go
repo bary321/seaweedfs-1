@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chrislusf/seaweedfs/weed/pb/volume_server_pb"
-	"github.com/chrislusf/seaweedfs/weed/storage/backend"
-	"github.com/chrislusf/seaweedfs/weed/storage/needle"
+	"github.com/bary321/seaweedfs-1/weed/pb/volume_server_pb"
+	"github.com/bary321/seaweedfs-1/weed/storage/backend"
+	"github.com/bary321/seaweedfs-1/weed/storage/needle"
 )
 
 // VolumeTierMoveDatFromRemote copy dat file from a remote tier to local volume server

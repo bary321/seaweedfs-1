@@ -10,7 +10,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/chrislusf/seaweedfs/weed/pb/volume_server_pb"
+	"github.com/bary321/seaweedfs-1/weed/pb/volume_server_pb"
 )
 
 type DeleteResult struct {

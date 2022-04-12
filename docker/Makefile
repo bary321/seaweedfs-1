@@ -6,7 +6,7 @@ gen: dev
 
 build:
 	cd ../weed; GOOS=linux go build; mv weed ../docker/
-	docker build --no-cache -t chrislusf/seaweedfs:local -f Dockerfile.local .
+	docker build --no-cache -t bary321/seaweedfs-1:local -f Dockerfile.local .
 	rm ./weed
 
 dev: build

@@ -5,7 +5,7 @@ import (
 	"encoding/base64"
 	"encoding/xml"
 	"fmt"
-	"github.com/chrislusf/seaweedfs/weed/s3api/s3err"
+	"github.com/bary321/seaweedfs-1/weed/s3api/s3err"
 	"net/http"
 	"net/url"
 	"strconv"
@@ -13,9 +13,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/pb"
-	"github.com/chrislusf/seaweedfs/weed/pb/filer_pb"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/pb"
+	"github.com/bary321/seaweedfs-1/weed/pb/filer_pb"
 )
 
 type mimeType string

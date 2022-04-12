@@ -5,9 +5,9 @@ import (
 	"path"
 	"sort"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/storage"
-	"github.com/chrislusf/seaweedfs/weed/storage/types"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/storage"
+	"github.com/bary321/seaweedfs-1/weed/storage/types"
 )
 
 type OnDiskCacheLayer struct {

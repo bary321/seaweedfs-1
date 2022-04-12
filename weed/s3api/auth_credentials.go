@@ -3,14 +3,14 @@ package s3api
 import (
 	"bytes"
 	"fmt"
-	"github.com/chrislusf/seaweedfs/weed/s3api/s3err"
+	"github.com/bary321/seaweedfs-1/weed/s3api/s3err"
 	"io/ioutil"
 	"net/http"
 
 	"github.com/golang/protobuf/jsonpb"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/pb/iam_pb"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/pb/iam_pb"
 )
 
 type Action string

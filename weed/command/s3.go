@@ -6,16 +6,16 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/chrislusf/seaweedfs/weed/pb"
-	"github.com/chrislusf/seaweedfs/weed/pb/filer_pb"
-	"github.com/chrislusf/seaweedfs/weed/security"
+	"github.com/bary321/seaweedfs-1/weed/pb"
+	"github.com/bary321/seaweedfs-1/weed/pb/filer_pb"
+	"github.com/bary321/seaweedfs-1/weed/security"
 
 	"github.com/gorilla/mux"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/s3api"
-	stats_collect "github.com/chrislusf/seaweedfs/weed/stats"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/s3api"
+	stats_collect "github.com/bary321/seaweedfs-1/weed/stats"
+	"github.com/bary321/seaweedfs-1/weed/util"
 )
 
 var (

@@ -8,10 +8,10 @@ import (
 
 	"go.etcd.io/etcd/clientv3"
 
-	"github.com/chrislusf/seaweedfs/weed/filer"
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/pb/filer_pb"
-	weed_util "github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/filer"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/pb/filer_pb"
+	weed_util "github.com/bary321/seaweedfs-1/weed/util"
 )
 
 const (

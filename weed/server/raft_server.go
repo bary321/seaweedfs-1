@@ -11,12 +11,12 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/chrislusf/seaweedfs/weed/pb"
+	"github.com/bary321/seaweedfs-1/weed/pb"
 
 	"github.com/chrislusf/raft"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/topology"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/topology"
 )
 
 type RaftServer struct {

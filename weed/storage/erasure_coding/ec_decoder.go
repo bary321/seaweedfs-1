@@ -5,13 +5,13 @@ import (
 	"io"
 	"os"
 
-	"github.com/chrislusf/seaweedfs/weed/storage/backend"
-	"github.com/chrislusf/seaweedfs/weed/storage/idx"
-	"github.com/chrislusf/seaweedfs/weed/storage/needle"
-	"github.com/chrislusf/seaweedfs/weed/storage/needle_map"
-	"github.com/chrislusf/seaweedfs/weed/storage/super_block"
-	"github.com/chrislusf/seaweedfs/weed/storage/types"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/storage/backend"
+	"github.com/bary321/seaweedfs-1/weed/storage/idx"
+	"github.com/bary321/seaweedfs-1/weed/storage/needle"
+	"github.com/bary321/seaweedfs-1/weed/storage/needle_map"
+	"github.com/bary321/seaweedfs-1/weed/storage/super_block"
+	"github.com/bary321/seaweedfs-1/weed/storage/types"
+	"github.com/bary321/seaweedfs-1/weed/util"
 )
 
 // write .idx file from .ecx and .ecj files

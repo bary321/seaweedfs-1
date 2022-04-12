@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chrislusf/seaweedfs/weed/images"
-	. "github.com/chrislusf/seaweedfs/weed/storage/types"
+	"github.com/bary321/seaweedfs-1/weed/images"
+	. "github.com/bary321/seaweedfs-1/weed/storage/types"
 )
 
 const (

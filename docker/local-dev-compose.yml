@@ -2,13 +2,13 @@ version: '2'
 
 services:
   master:
-    image: chrislusf/seaweedfs:local
+    image: bary321/seaweedfs-1:local
     ports:
       - 9333:9333
       - 19333:19333
     command: "master -ip=master"
   volume:
-    image: chrislusf/seaweedfs:local
+    image: bary321/seaweedfs-1:local
     ports:
       - 8080:8080
       - 18080:18080
@@ -16,7 +16,7 @@ services:
     depends_on:
       - master
   filer:
-    image: chrislusf/seaweedfs:local
+    image: bary321/seaweedfs-1:local
     ports:
       - 8888:8888
       - 18888:18888
@@ -25,7 +25,7 @@ services:
       - master
       - volume
   s3:
-    image: chrislusf/seaweedfs:local
+    image: bary321/seaweedfs-1:local
     ports:
       - 8333:8333
     command: 's3 -filer="filer:8888"'

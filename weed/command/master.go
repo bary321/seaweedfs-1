@@ -11,15 +11,15 @@ import (
 	"github.com/gorilla/mux"
 	"google.golang.org/grpc/reflection"
 
-	"github.com/chrislusf/seaweedfs/weed/util/grace"
+	"github.com/bary321/seaweedfs-1/weed/util/grace"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/pb"
-	"github.com/chrislusf/seaweedfs/weed/pb/master_pb"
-	"github.com/chrislusf/seaweedfs/weed/security"
-	"github.com/chrislusf/seaweedfs/weed/server"
-	"github.com/chrislusf/seaweedfs/weed/storage/backend"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/pb"
+	"github.com/bary321/seaweedfs-1/weed/pb/master_pb"
+	"github.com/bary321/seaweedfs-1/weed/security"
+	"github.com/bary321/seaweedfs-1/weed/server"
+	"github.com/bary321/seaweedfs-1/weed/storage/backend"
+	"github.com/bary321/seaweedfs-1/weed/util"
 )
 
 var (
@@ -121,7 +121,7 @@ func startMaster(masterOption MasterOptions, masterWhiteList []string) {
 	raftServer := weed_server.NewRaftServer(security.LoadClientTLS(util.GetViper(), "grpc.master"),
 		peers, myMasterAddress, util.ResolvePath(*masterOption.metaFolder), ms.Topo, 5)
 	if raftServer == nil {
-		glog.Fatalf("please verify %s is writable, see https://github.com/chrislusf/seaweedfs/issues/717", *masterOption.metaFolder)
+		glog.Fatalf("please verify %s is writable, see https://github.com/bary321/seaweedfs-1/issues/717", *masterOption.metaFolder)
 	}
 	ms.SetRaftServer(raftServer)
 	r.HandleFunc("/cluster/status", raftServer.StatusHandler).Methods("GET")

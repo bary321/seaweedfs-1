@@ -6,9 +6,9 @@ import (
 	"os"
 
 	"cloud.google.com/go/pubsub"
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/pb/filer_pb"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/pb/filer_pb"
+	"github.com/bary321/seaweedfs-1/weed/util"
 	"github.com/golang/protobuf/proto"
 	"google.golang.org/api/option"
 )

@@ -5,8 +5,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/chrislusf/seaweedfs/weed/storage/types"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/storage/types"
+	"github.com/bary321/seaweedfs-1/weed/util"
 )
 
 var (

@@ -1,6 +1,6 @@
 package meta_cache
 
-import "github.com/chrislusf/seaweedfs/weed/util"
+import "github.com/bary321/seaweedfs-1/weed/util"
 
 var (
 	_ = util.Configuration(&cacheConfig{})

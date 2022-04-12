@@ -5,7 +5,7 @@ import (
 
 	"github.com/seaweedfs/fuse/fs"
 
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/util"
 )
 
 type FsCache struct {

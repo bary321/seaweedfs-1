@@ -8,7 +8,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/glog"
 	"github.com/klauspost/compress/zstd"
 )
 

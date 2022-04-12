@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	. "github.com/chrislusf/seaweedfs/weed/storage/types"
+	. "github.com/bary321/seaweedfs-1/weed/storage/types"
 )
 
 type FileId struct {

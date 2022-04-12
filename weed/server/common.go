@@ -14,16 +14,16 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/operation"
-	"github.com/chrislusf/seaweedfs/weed/stats"
-	"github.com/chrislusf/seaweedfs/weed/storage/needle"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/operation"
+	"github.com/bary321/seaweedfs-1/weed/stats"
+	"github.com/bary321/seaweedfs-1/weed/storage/needle"
+	"github.com/bary321/seaweedfs-1/weed/util"
 
 	"github.com/gorilla/mux"
 	statik "github.com/rakyll/statik/fs"
 
-	_ "github.com/chrislusf/seaweedfs/weed/statik"
+	_ "github.com/bary321/seaweedfs-1/weed/statik"
 )
 
 var serverStats *stats.ServerStats

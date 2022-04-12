@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/chrislusf/seaweedfs/weed/storage/backend"
-	"github.com/chrislusf/seaweedfs/weed/storage/types"
+	"github.com/bary321/seaweedfs-1/weed/storage/backend"
+	"github.com/bary321/seaweedfs-1/weed/storage/types"
 )
 
 func TestAppend(t *testing.T) {

@@ -10,7 +10,7 @@ import (
 
 	"github.com/disintegration/imaging"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/glog"
 )
 
 func Resized(ext string, read io.ReadSeeker, width, height int, mode string) (resized io.ReadSeeker, w int, h int) {

@@ -6,10 +6,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/pb/filer_pb"
-	"github.com/chrislusf/seaweedfs/weed/util/chunk_cache"
-	"github.com/chrislusf/seaweedfs/weed/wdclient"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/pb/filer_pb"
+	"github.com/bary321/seaweedfs-1/weed/util/chunk_cache"
+	"github.com/bary321/seaweedfs-1/weed/wdclient"
 )
 
 type ChunkReadAt struct {

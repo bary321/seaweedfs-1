@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chrislusf/seaweedfs/weed/filer"
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/pb/messaging_pb"
-	"github.com/chrislusf/seaweedfs/weed/util/log_buffer"
+	"github.com/bary321/seaweedfs-1/weed/filer"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/pb/messaging_pb"
+	"github.com/bary321/seaweedfs-1/weed/util/log_buffer"
 )
 
 type TopicPartition struct {

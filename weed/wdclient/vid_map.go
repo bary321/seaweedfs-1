@@ -8,7 +8,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/glog"
 )
 
 const (

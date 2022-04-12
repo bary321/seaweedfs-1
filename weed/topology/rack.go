@@ -1,7 +1,7 @@
 package topology
 
 import (
-	"github.com/chrislusf/seaweedfs/weed/pb/master_pb"
+	"github.com/bary321/seaweedfs-1/weed/pb/master_pb"
 	"strconv"
 	"time"
 )

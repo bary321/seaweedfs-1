@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/chrislusf/seaweedfs/weed/pb/volume_server_pb"
+	"github.com/bary321/seaweedfs-1/weed/pb/volume_server_pb"
 	"github.com/golang/protobuf/jsonpb"
 )
 

@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"time"
 
+	ui "github.com/bary321/seaweedfs-1/weed/server/master_ui"
+	"github.com/bary321/seaweedfs-1/weed/stats"
+	"github.com/bary321/seaweedfs-1/weed/util"
 	"github.com/chrislusf/raft"
-	ui "github.com/chrislusf/seaweedfs/weed/server/master_ui"
-	"github.com/chrislusf/seaweedfs/weed/stats"
-	"github.com/chrislusf/seaweedfs/weed/util"
 )
 
 func (ms *MasterServer) uiStatusHandler(w http.ResponseWriter, r *http.Request) {

@@ -3,7 +3,7 @@ package cassandra
 import (
 	"context"
 	"fmt"
-	"github.com/chrislusf/seaweedfs/weed/filer"
+	"github.com/bary321/seaweedfs-1/weed/filer"
 	"github.com/gocql/gocql"
 )
 

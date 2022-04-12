@@ -12,7 +12,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/glog"
 )
 
 var (
@@ -65,7 +65,7 @@ func Post(url string, values url.Values) ([]byte, error) {
 	return b, nil
 }
 
-//	github.com/chrislusf/seaweedfs/unmaintained/repeated_vacuum/repeated_vacuum.go
+//	github.com/bary321/seaweedfs-1/unmaintained/repeated_vacuum/repeated_vacuum.go
 //	may need increasing http.Client.Timeout
 func Get(url string) ([]byte, error) {
 

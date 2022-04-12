@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/glog"
 )
 
 func TestFolderWritable(folder string) (err error) {

@@ -3,7 +3,7 @@
 global:
   registry: ""
   repository: ""
-  imageName: chrislusf/seaweedfs
+  imageName: bary321/seaweedfs-1
   imageTag: "2.00"
   imagePullPolicy: IfNotPresent
   imagePullSecrets: imagepullsecret

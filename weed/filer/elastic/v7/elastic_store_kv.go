@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/chrislusf/seaweedfs/weed/filer"
+	"github.com/bary321/seaweedfs-1/weed/filer"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/glog"
 	jsoniter "github.com/json-iterator/go"
 	elastic "github.com/olivere/elastic/v7"
 )

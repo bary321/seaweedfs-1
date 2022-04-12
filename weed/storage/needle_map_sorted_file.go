@@ -3,10 +3,10 @@ package storage
 import (
 	"os"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/storage/erasure_coding"
-	"github.com/chrislusf/seaweedfs/weed/storage/needle_map"
-	. "github.com/chrislusf/seaweedfs/weed/storage/types"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/storage/erasure_coding"
+	"github.com/bary321/seaweedfs-1/weed/storage/needle_map"
+	. "github.com/bary321/seaweedfs-1/weed/storage/types"
 )
 
 type SortedFileNeedleMap struct {

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chrislusf/seaweedfs/weed/filer"
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/filer"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/util"
 )
 
 func (store *AbstractSqlStore) KvPut(ctx context.Context, key []byte, value []byte) (err error) {

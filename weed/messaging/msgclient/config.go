@@ -4,9 +4,9 @@ import (
 	"context"
 	"log"
 
-	"github.com/chrislusf/seaweedfs/weed/messaging/broker"
-	"github.com/chrislusf/seaweedfs/weed/pb"
-	"github.com/chrislusf/seaweedfs/weed/pb/messaging_pb"
+	"github.com/bary321/seaweedfs-1/weed/messaging/broker"
+	"github.com/bary321/seaweedfs-1/weed/pb"
+	"github.com/bary321/seaweedfs-1/weed/pb/messaging_pb"
 )
 
 func (mc *MessagingClient) configureTopic(tp broker.TopicPartition) error {

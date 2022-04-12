@@ -1,4 +1,4 @@
-module github.com/chrislusf/seaweedfs
+module github.com/bary321/seaweedfs-1
 
 go 1.12
 

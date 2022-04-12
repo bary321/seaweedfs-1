@@ -3,7 +3,7 @@ package master_ui
 import (
 	"strings"
 
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/util"
 )
 
 type Breadcrumb struct {

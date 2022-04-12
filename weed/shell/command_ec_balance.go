@@ -6,8 +6,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/chrislusf/seaweedfs/weed/storage/erasure_coding"
-	"github.com/chrislusf/seaweedfs/weed/storage/needle"
+	"github.com/bary321/seaweedfs-1/weed/storage/erasure_coding"
+	"github.com/bary321/seaweedfs-1/weed/storage/needle"
 )
 
 func init() {

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package master_pb;
 
-option go_package = "github.com/chrislusf/seaweedfs/weed/pb/master_pb";
+option go_package = "github.com/bary321/seaweedfs-1/weed/pb/master_pb";
 
 //////////////////////////////////////////////////
 

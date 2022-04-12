@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/storage/needle"
+	"github.com/bary321/seaweedfs-1/weed/glog"
+	"github.com/bary321/seaweedfs-1/weed/storage/needle"
 )
 
 func ToFileIdObject(fileIdStr string) (*FileId, error) {

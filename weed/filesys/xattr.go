@@ -5,9 +5,9 @@ import (
 
 	"github.com/seaweedfs/fuse"
 
-	"github.com/chrislusf/seaweedfs/weed/filesys/meta_cache"
-	"github.com/chrislusf/seaweedfs/weed/pb/filer_pb"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/filesys/meta_cache"
+	"github.com/bary321/seaweedfs-1/weed/pb/filer_pb"
+	"github.com/bary321/seaweedfs-1/weed/util"
 )
 
 func getxattr(entry *filer_pb.Entry, req *fuse.GetxattrRequest, resp *fuse.GetxattrResponse) error {

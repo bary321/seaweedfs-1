@@ -3,9 +3,9 @@ package command
 import (
 	"fmt"
 
-	"github.com/chrislusf/seaweedfs/weed/security"
-	"github.com/chrislusf/seaweedfs/weed/shell"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"github.com/bary321/seaweedfs-1/weed/security"
+	"github.com/bary321/seaweedfs-1/weed/shell"
+	"github.com/bary321/seaweedfs-1/weed/util"
 )
 
 var (

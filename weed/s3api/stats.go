@@ -1,7 +1,7 @@
 package s3api
 
 import (
-	stats_collect "github.com/chrislusf/seaweedfs/weed/stats"
+	stats_collect "github.com/bary321/seaweedfs-1/weed/stats"
 	"net/http"
 	"time"
 )
